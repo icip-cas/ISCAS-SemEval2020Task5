@@ -43,7 +43,7 @@ RoBERTa Large + CLS Aggregation
 
 ```shell
 cd subtask1/easyclassification
-bash run.exp.roberta.large.bash
+bash exp_scripts/run.exp.roberta.large.bash
 ```
 
 It will generate five models on 5 folds:
@@ -54,7 +54,7 @@ RoBERTa Large + CNN Aggregation
 
 ```shell
 cd subtask1/easyclassification
-bash run.exp.cnn.robert-large.finetune.bash
+bash exp_scripts/run.exp.cnn.robert-large.finetune.bash
 ```
 
 It will generate five models on 5 folds:

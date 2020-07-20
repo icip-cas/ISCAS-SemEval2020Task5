@@ -35,7 +35,7 @@ def main():
             with open(data_file, 'w') as output:
                 for instance_id in open(list_file):
                     instance_id = instance_id.strip()
-                    output.write(json.dumps(instance_dict[instance_id]))
+                    output.write(json.dumps(instance_dict[instance_id]) + '\n')
 
 
 if __name__ == "__main__":
