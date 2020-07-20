@@ -16,6 +16,12 @@ Python Packages
 - transformers==2.4.1
 - sklearn
 
+```shell
+conda create -n iscas-se python=3.7
+conda activate iscas-se
+pip install -r requirements.txt
+```
+
 ## Pre-processing
 
 First, prepare data.
