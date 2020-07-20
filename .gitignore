@@ -1,0 +1,13 @@
+/model
+/thirdparty
+/data_processing
+
+# mac
+.DS_Store
+
+# env
+/.vscode
+/.idea
+**/__pycache__
+*.pyc
+
