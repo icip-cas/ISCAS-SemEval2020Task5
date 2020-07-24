@@ -1,6 +1,6 @@
 # ISCAS-SemEval2020Task5
 
-- Code for ``ISCAS at SemEval-2020 Task 5: Pre-trained Transformers for Counterfactual Statement Modeling``
+- Code for [``ISCAS at SemEval-2020 Task 5: Pre-trained Transformers for Counterfactual Statement Modeling``](https://luyaojie.github.io/pdf/lusemeval2020.pdf)
 - Please contact [Yaojie Lu](http://luyaojie.github.io) ([@luyaojie](mailto:yaojie.lu@outlook.com)) for questions and suggestions.
 
 ## Requirements
