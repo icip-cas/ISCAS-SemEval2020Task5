@@ -8,7 +8,7 @@
 General
 
 - Python (verified on 3.7.)
-- unzip (for running download.sh only)
+- unzip (for running data_preprocessing.sh only)
 
 Python Packages
 
