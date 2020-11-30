@@ -121,7 +121,7 @@ python ../../eval_scripts/subtask2_eval.py \
   -pred <path-to-dev-output>/prediction_*.csv
 ```
 
-Run trained model on the test dataset and select the best checkpoint.
+Run trained model on the test dataset.
 
 ```shell
 bash scripts/run_squad_predict.bash -t bert \
