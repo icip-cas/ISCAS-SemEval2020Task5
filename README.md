@@ -24,21 +24,10 @@ pip install -r requirements.txt
 
 ## Pre-processing
 
-First, prepare data.
-Donwload SemEval 2020 Task data from [CodaLab](https://competitions.codalab.org/competitions/21691) and put it at ``data/zip_data`` :
+First, prepare data, and preprocess datasets and save train sets at ``$PWD/data/train_data/`` and online evaluation sets at ``$PWD/data/eval_data/``.
 
 ```shell
-data/zip_data
-├── Subtask-1-master.zip
-├── Subtask-1-test-master.zip
-├── Subtask-2-master.zip
-└── Subtask-2-test-master.zip
-```
-
-Second, preprocess datasets and save train sets at ``$PWD/data/train_data/`` and online evaluation sets at ``$PWD/data/eval_data/``.
-
-```shell
-bash data_preprocessing.bash
+bash data_preprocessing_zenodo.bash
 ```
 
 ## Subtask 1
